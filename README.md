@@ -93,7 +93,7 @@ list = getFileList(dir);
 
 // Define la escala (pixeles por unidad y unidad)
 scale = 0.5;  // Número de píxeles por micrómetro (ajusta según tus datos)
-unit = "mm";  // Unidad de medida (puede ser "microns", "mm", etc.)
+unit = "microns";  // Unidad de medida (puede ser "microns", "mm", etc.)
 
 for (i = 0; i < list.length; i++) {
     if (endsWith(list[i], ".tif") || endsWith(list[i], ".jpg") || endsWith(list[i], ".PNG" || endsWith(list[i], ".png")) {
