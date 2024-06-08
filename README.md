@@ -1,4 +1,4 @@
-********# Tutorial: Procesamiento Automatizado de Imágenes para Contar Esporas en ImageJ 
+# Tutorial: Procesamiento Automatizado de Imágenes para Contar Esporas en ImageJ 
 
 ## 1. Analizar una imagen de esporas
 
