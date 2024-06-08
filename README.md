@@ -1,6 +1,8 @@
 # Tutorial: Procesamiento Automatizado de Imágenes para Contar Esporas en ImageJ 
 
-## 1. Analizar una imagen
+## 1. Analizar una imagen de esporas
+
+<img src="https://github.com/ngmedina/sporecount/assets/9556792/aa4f7d58-0f38-4646-a274-4110ea0a17d1" alt="A_1_B06" width="500"/>
 
 ### Paso 1: Establecer la escala
 
@@ -36,14 +38,21 @@ Esto significa que 400 píxeles en la imagen corresponden a 200 micrómetros en 
 2.	Carga tu imagen seleccionando `File > Open...` y elige tu imagen.
 3.	Transforma la imagen a 8 bits yendo a `Image > Type > 8-bit`.
 
+<img src="https://github.com/ngmedina/sporecount/assets/9556792/f218919a-8c80-4fc4-938d-e3a1d6305c10" alt="A_1_B06" width="500"/>
+
+
 ### Paso 4: Aplicar Umbral (Threshold)
 1.	Ve a `Image > Adjust > Threshold....`
 2.	Ajusta los valores de umbral moviendo los deslizadores hasta que las áreas de interés estén resaltadas en rojo.
 3.	Haz clic en `Apply` para aplicar el umbral a la imagen.
+   
+<img src="https://github.com/ngmedina/sporecount/assets/9556792/8b4c532e-bd16-4da9-9c4b-21667107b3c2" alt="A_1_B06_threshold" width="700"/>
 
 ### Paso 5: Aplicar Watershed
 1.	Asegúrate de que la imagen esté en blanco y negro (las áreas de interés deben estar en blanco y el fondo en negro).
 2.	Ve a `Process > Binary > Watershed`. Esta herramienta separará las partículas que están tocándose.
+
+<img src="https://github.com/ngmedina/sporecount/assets/9556792/5ce9e86f-4bae-47d6-a6c3-0c565c7268bd" alt="A_1_B06_watershed" width="500"/>
 
 ### Paso 6: Analizar Partículas
 
@@ -63,8 +72,12 @@ Esto significa que 400 píxeles en la imagen corresponden a 200 micrómetros en 
 
 4.	Haz clic en `OK` para iniciar el análisis de partículas.
 
+<img src="https://github.com/ngmedina/sporecount/assets/9556792/e6e80484-ffa7-41c6-9ec1-3d9d465e4dd9" alt="A_1_B06_particles" width="500"/>
+
 ### Resultado
 ImageJ procesará la imagen según los parámetros establecidos y mostrará una lista de las partículas identificadas con sus respectivos tamaños, circularidades y centroides.
+
+<img src="https://github.com/ngmedina/sporecount/assets/9556792/ccd314ad-2502-46e2-b4a1-bbbf9093009f" alt="A_1_B06_result" width="500"/>
 
 ## ¡Listo! Has analizado tu primera imagen para contar esporas en imageJ.
 
