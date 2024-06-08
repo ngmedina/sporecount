@@ -1,4 +1,4 @@
-# Tutorial: Procesamiento Automatizado de Imágenes para Contar Esporas en ImageJ 
+********# Tutorial: Procesamiento Automatizado de Imágenes para Contar Esporas en ImageJ 
 
 ## 1. Analizar una imagen de esporas
 
@@ -83,7 +83,7 @@ ImageJ procesará la imagen según los parámetros establecidos y mostrará una 
 
 ## 2. Analizar una carpeta de imganes
 
-### Paso 1: Establece la escala de las imagenes
+### Paso 1: Establece la escala de las imágenes
 
 Observa la barra de escala en la imagen. En este caso, la barra indica que 200 micrómetros (µm) corresponden a una longitud específica en la imagen.
 Mide la longitud de la barra de escala en píxeles utilizando la herramienta de línea en ImageJ `Analyze > Measure`.
