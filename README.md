@@ -2,6 +2,9 @@
 
 ## 1. Analizar una imagen de esporas
 
+1.	Abre ImageJ.
+2.	Carga tu imagen seleccionando `File > Open...` y elige tu imagen.
+
 <img src="https://github.com/ngmedina/sporecount/assets/9556792/aa4f7d58-0f38-4646-a274-4110ea0a17d1" alt="A_1_B06" width="500"/>
 
 ### Paso 1: Establecer la escala
@@ -34,9 +37,7 @@ Esto significa que 400 píxeles en la imagen corresponden a 200 micrómetros en 
 
 ### Paso 3: Transformar a 8 bits
 
-1.	Abre ImageJ.
-2.	Carga tu imagen seleccionando `File > Open...` y elige tu imagen.
-3.	Transforma la imagen a 8 bits yendo a `Image > Type > 8-bit`.
+1.	Transforma la imagen a 8 bits yendo a `Image > Type > 8-bit`.
 
 <img src="https://github.com/ngmedina/sporecount/assets/9556792/f218919a-8c80-4fc4-938d-e3a1d6305c10" alt="A_1_B06" width="500"/>
 
