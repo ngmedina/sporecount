@@ -94,9 +94,9 @@ La escala sería: 200 µm / 400 píxeles = 0.5 µm/píxel.
 En el macro, ajusta la variable scale a este valor: scale = 0.5;.
 
 ### Paso 2: Ejecutar un Macro para ImageJ
-Abre ImageJ.
-Ve a `Plugins > New > Macro....`
-Copia y pega el siguiente código y ``RECUERDA´´: tienes que actualizar el valor de escala
+1. Abre ImageJ.
+2. Ve a `Plugins > New > Macro....`
+3. Copia y pega el siguiente código y ``RECUERDA´´: tienes que actualizar el valor de escala
 
 ``` ruby
 // Macro para procesar múltiples imágenes en ImageJ
@@ -136,7 +136,7 @@ for (i = 0; i < list.length; i++) {
 }
 
 ```
-Corre el macro haciendo clic en `Run`.
+4. Corre el macro haciendo clic en `Run`.
 
 ## Paso 2: Ejecutar el Macro en Múltiples Imágenes
 1. Elige el directorio que contiene las imágenes de esporas que deseas procesar.
