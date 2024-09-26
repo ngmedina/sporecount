@@ -82,7 +82,7 @@ ImageJ procesará la imagen según los parámetros establecidos y mostrará una 
 
 ## ¡Listo! Has analizado tu primera imagen para contar esporas en imageJ.
 
-## 2. Analizar una carpeta de imganes
+## 2. Analizar una carpeta de imágenes
 
 ### Paso 1: Establece la escala de las imágenes
 
